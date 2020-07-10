@@ -6,9 +6,8 @@ mouseKeys = logic.mouse.inputs
 keyTAP = logic.KX_INPUT_JUST_ACTIVATED
 
 
-# Ao iniciar pega o owner
 def start(controller):
-    owner = controller.owner
+    owner = controller.owner  # Ao iniciar pega o owner
     owner["vida"] = 100
     owner["inventário"] = []
 
